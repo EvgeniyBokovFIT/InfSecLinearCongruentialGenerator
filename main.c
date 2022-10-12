@@ -23,7 +23,6 @@ int main(int argc, char** argv) {
     printf("%s\n", "Enter the input text");
     gets(input_text);
 
-    char mode_buf[1];
     char mode;
 
     printf("%s\n", "Enter the mode c/d");
