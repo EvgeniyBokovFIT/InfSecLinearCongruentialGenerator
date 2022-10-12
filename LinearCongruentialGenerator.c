@@ -3,6 +3,7 @@
 //
 
 #include <string.h>
+#include "LinearCongruentialGenerator.h"
 
 void encrypt(const char* plaintext, char* ciphertext) {
     int multiplier = 5;
